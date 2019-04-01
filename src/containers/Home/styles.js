@@ -17,7 +17,10 @@ export const SubWrapper = styled.div`
 
 export const ListItem = styled.p`
   margin: 20px;
-  min-width: 200px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
 `;
 
 export const Item = styled.a`
